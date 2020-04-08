@@ -1,0 +1,107 @@
+firmware-update (0.0.19) eoan; urgency=medium
+
+  * sdfkjhsdfkj
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 16:33:35 +0100
+
+firmware-update (0.0.18) eoan; urgency=medium
+
+  * osidjfkjlsdfj
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 16:01:43 +0100
+
+firmware-update (0.0.17) eoan; urgency=medium
+
+  * Changed build-deps
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 15:48:57 +0100
+
+firmware-update (0.0.16) eoan; urgency=medium
+
+  * Remove translations
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 15:24:57 +0100
+
+firmware-update (0.0.15) eoan; urgency=medium
+
+  * Hail Mary
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 14:44:28 +0100
+
+firmware-update (0.0.14) focal; urgency=medium
+
+  * libappstream-glib-devel8
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 14:17:40 +0100
+
+firmware-update (0.0.13) focal; urgency=medium
+
+  * Deps
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 14:10:10 +0100
+
+firmware-update (0.0.12) focal; urgency=medium
+
+  * Gettext
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 13:46:33 +0100
+
+firmware-update (0.0.11) eoan; urgency=medium
+
+  * Updated
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 10:53:35 +0100
+
+firmware-update (0.0.9) eoan; urgency=medium
+
+  * polkit-devel
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 10:45:19 +0100
+
+firmware-update (0.0.8) eoan; urgency=medium
+
+  * Polkit
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 10:43:45 +0100
+
+firmware-update (0.0.7) eoan; urgency=medium
+
+  * libglib2.0-dev
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 10:04:17 +0100
+
+firmware-update (0.0.6) eoan; urgency=medium
+
+  * Added gettext
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 09:53:34 +0100
+
+firmware-update (0.0.5) eoan; urgency=medium
+
+  * Changed again
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 09:42:01 +0100
+
+firmware-update (0.0.4) eoan; urgency=medium
+
+  * Changed for a change
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 09:22:30 +0100
+
+firmware-update (0.0.3) eoan; urgency=medium
+
+  * Dep error
+
+ -- Sean Rhodes <sean@starlabs.systems>  Wed, 08 Apr 2020 07:41:38 +0100
+
+firmware-update (0.0.2) eoan; urgency=medium
+
+  * Dep error
+
+ -- Sean Rhodes <sean@starlabs.systems>  Tue, 07 Apr 2020 16:59:21 +0100
+
+firmware-update (0.0.1) focal; urgency=medium
+
+  * Initial release.
+
+ -- Sean Rhodes <sean@starlabs.systems>  Tue, 07 Apr 2020 16:45:31 +0100

@@ -1,0 +1,289 @@
+# Turkish translations for gnome-firmware-updater package
+# Copyright (C) 2019 the gnome-firmware-updater copyright holder
+# This file is distributed under the same license as the gnome-firmware-updater package.
+#
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-firmware-updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-18 09:39+0200\n"
+"PO-Revision-Date: 2019-09-26 05:49+0300\n"
+"Last-Translator: Sabri Ünal <libreajans@gmail.com>\n"
+"Language-Team: Türkçe <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. set GUIDs->GUID if only one
+#: ../src/gfu-main.c:257
+msgid "GUID"
+msgid_plural "GUIDs"
+msgstr[0] "GUID"
+
+#: ../src/gfu-main.c:306
+msgid "Checksum"
+msgid_plural "Checksums"
+msgstr[0] "Sağlama toplamı"
+
+#. TRANSLATORS: e.g. CVEs
+#: ../src/gfu-main.c:325
+msgid "Fixed Issue"
+msgid_plural "Fixed Issues"
+msgstr[0] "Problem düzeltildi"
+
+#. TRANSLATORS: upgrading the firmware
+#: ../src/gfu-main.c:368
+msgid "Install Upgrade"
+msgstr "Yükseltmeyi Kur"
+
+#. TRANSLATORS: downgrading the firmware
+#: ../src/gfu-main.c:371
+msgid "Install Downgrade"
+msgstr "Sürüm Düşürmeyi Kur"
+
+#. TRANSLATORS: installing the same firmware that is currently installed
+#: ../src/gfu-main.c:374 ../src/gfu-main.c:1148
+msgid "Reinstall"
+msgstr "Yeniden Kur"
+
+#. TRANSLATORS: general install button in the event of an error; not clickable
+#: ../src/gfu-main.c:380 ../src/gfu-main.c:1152
+msgid "Install"
+msgstr "Kur"
+
+#. TRANSLATORS: prompting a shutdown to the user
+#: ../src/gfu-main.c:499
+msgid "An update requires the system to shutdown to complete."
+msgstr "Bir güncellemenin tamamlanabilmesi için sistemin kapatılması gerekli."
+
+#. TRANSLATORS: error in shutting down the system
+#: ../src/gfu-main.c:520
+msgid "Failed to shutdown device"
+msgstr "Aygıt kapatılamadı"
+
+#: ../src/gfu-main.c:520
+msgid "A manual shutdown is required."
+msgstr "Elle kapatma gerekli."
+
+#. TRANSLATORS: prompting a reboot to the user
+#: ../src/gfu-main.c:542
+msgid "An update requires a reboot to complete."
+msgstr "Bir güncellemenin tamamlanabilmesi için yeniden başlatma gerekli."
+
+#. TRANSLATORS: error in rebooting down the system
+#: ../src/gfu-main.c:563
+msgid "Failed to reboot device"
+msgstr "Aygıt yeniden başlatılamadı"
+
+#: ../src/gfu-main.c:563
+msgid "A manual reboot is required."
+msgstr "Elle yeniden başlatma gerekli."
+
+#: ../src/gfu-main.c:598
+msgid "Failed to load list of remotes"
+msgstr "Uzak listesi yüklenemedi"
+
+#: ../src/gfu-main.c:635 ../src/gfu-main.c:1079
+msgid "Failed to load device list"
+msgstr "Aygıt listesi yüklenemedi"
+
+#: ../src/gfu-main.c:742
+msgid "Downloading"
+msgstr "İndiriliyor"
+
+#: ../src/gfu-main.c:764
+msgid "File already downloaded..."
+msgstr "Dosya zaten indirilmiş..."
+
+#: ../src/gfu-main.c:778
+msgid "Downloading file..."
+msgstr "Dosya indiriliyor..."
+
+#. TRANSLATORS: downloading new signing file
+#: ../src/gfu-main.c:791
+msgid "Fetching signature"
+msgstr "İmza alınıyor"
+
+#: ../src/gfu-main.c:792
+msgid "Fetching signature..."
+msgstr "İmza alınıyor..."
+
+#. TRANSLATORS: downloading new metadata file
+#: ../src/gfu-main.c:795
+msgid "Fetching metadata"
+msgstr "Üstveri alınıyor"
+
+#: ../src/gfu-main.c:796
+msgid "Fetching metadata..."
+msgstr "Üstveri alınıyor..."
+
+#. TRANSLATORS: downloading new firmware file
+#: ../src/gfu-main.c:799
+msgid "Fetching firmware"
+msgstr "Ürün yazılımı alınıyor"
+
+#: ../src/gfu-main.c:800
+msgid "Fetching firmware..."
+msgstr "Ürün yazılımı alınıyor..."
+
+#. TRANSLATORS: downloading unknown file
+#: ../src/gfu-main.c:803
+msgid "Fetching file"
+msgstr "Dosya alınıyor"
+
+#: ../src/gfu-main.c:804
+msgid "Fetching file..."
+msgstr "Dosya alınıyor..."
+
+#. TRANSLATORS: the server is rate-limiting downloads
+#: ../src/gfu-main.c:818
+msgid "Failed to download due to server limit"
+msgstr "Sunucu sınırı nedeniyle indirilemedi"
+
+#: ../src/gfu-main.c:824
+#, c-format
+msgid "Failed to download due to server limit: %s"
+msgstr "Sunucu sınırı nedeniyle indirilemedi: %s"
+
+#: ../src/gfu-main.c:831
+#, c-format
+msgid "Failed to download %s: %s"
+msgstr "%s indirilemedi: %s"
+
+#: ../src/gfu-main.c:845
+#, c-format
+msgid "Checksum invalid, expected %s got %s"
+msgstr "Sağlama toplamı geçersiz, beklenen %s, olan %s"
+
+#: ../src/gfu-main.c:859
+#, c-format
+msgid "Failed to save file: %s"
+msgstr "Dosya kaydedilemedi: %s"
+
+#. TRANSLATORS: creating directory for the firmware download
+#: ../src/gfu-main.c:886 ../src/gfu-main.c:1039
+msgid "Creating cache path..."
+msgstr "Önbellek yolu oluşturuluyor..."
+
+#: ../src/gfu-main.c:890 ../src/gfu-main.c:899 ../src/gfu-main.c:1035
+msgid "Preparing to download file..."
+msgstr "Dosyayı indirmeye hazırlanıyor..."
+
+#: ../src/gfu-main.c:925
+msgid "Failed to enable LVFS"
+msgstr "LVFS etkinleştirilemedi"
+
+#: ../src/gfu-main.c:933
+msgid "Failed to find LVFS"
+msgstr "LVFS bulumamadı"
+
+#: ../src/gfu-main.c:938
+msgid "Failed to download metadata for LVFS"
+msgstr "LVFS için üstveri indirilemedi"
+
+#: ../src/gfu-main.c:980
+msgid "Failed to download metadata"
+msgstr "Üstveri indirilemedi"
+
+#: ../src/gfu-main.c:1051
+msgid "Installing file to device..."
+msgstr "Dosya aygıta kuruluyor..."
+
+#: ../src/gfu-main.c:1138
+#, c-format
+msgid "%s firmware version %s"
+msgstr "%s ürün yazılımı sürümü %s"
+
+#: ../src/gfu-main.c:1141
+msgid "Cancel"
+msgstr "İptal et"
+
+#: ../src/gfu-main.c:1147
+msgid ""
+"This firmware version is already installed on the device. Reinstall this "
+"firmware file?"
+msgstr ""
+"Bu ürün yazılımı sürümü aygıta zaten yüklenmiş. Ürün yazılımı dosyasını "
+"yeniden yüklensin mi?"
+
+#: ../src/gfu-main.c:1151
+msgid "Install this firmware file?"
+msgstr "Bu ürün yazılımı kurulsun mu?"
+
+#: ../src/gfu-main.c:1170
+msgid "Failed to install firmware release"
+msgstr "Ürün yazılımı dağıtımı kurulamadı"
+
+#. TRANSLATORS: inform the user that the installation was successful onto the device
+#: ../src/gfu-main.c:1202
+msgid "Installation successful"
+msgstr "Kurulum başarılı"
+
+# s1: version
+# s2: device name
+#: ../src/gfu-main.c:1204
+#, c-format
+msgid "Installed firmware version %s on %s"
+msgstr "%s sürümü %s aygıtına kuruldu"
+
+#. TRANSLATORS: verify means checking the actual checksum of the firmware
+#: ../src/gfu-main.c:1256 ../src/gfu-main.c:1263
+msgid "Failed to verify device"
+msgstr "Aygıt doğrulanamadı"
+
+#. TRANSLATORS: inform the user that the firmware verification was successful
+#: ../src/gfu-main.c:1273
+msgid "Verification succeeded"
+msgstr "Doğrulama başarılı"
+
+#. TRANSLATORS: firmware is cryptographically identical
+#: ../src/gfu-main.c:1276
+#, c-format
+msgid "%s firmware checksums matched"
+msgstr "%s ürün yazılımı sağlama toplamı eşleşti"
+
+# GNOME Firmware uygulama adıdır. Çevirmeyin.
+#. TRANSLATORS: the title of the about window
+#: ../src/gfu-main.c:1306
+msgid "About GNOME Firmware"
+msgstr "GNOME Firmware Hakkında"
+
+# GNOME Firmware uygulama adıdır. Çevirmeyin.
+#. TRANSLATORS: the application name for the about UI
+#. TRANSLATORS: command description
+#: ../src/gfu-main.c:1308 ../src/gfu-main.c:1601
+msgid "GNOME Firmware"
+msgstr "GNOME Firmware"
+
+#. TRANSLATORS: one-line description for the app
+#: ../src/gfu-main.c:1311
+msgid "Install firmware on devices"
+msgstr "Ürün yazılımını aygıtlara kur"
+
+#. TRANSLATORS: you can put your name here :)
+#: ../src/gfu-main.c:1316
+msgid "translator-credits"
+msgstr "Sabri Ünal <libreajans@gmail.com>"
+
+#: ../src/gfu-main.c:1418
+msgid "Error connecting to fwupd"
+msgstr "fwupd uygulamasına bağlanma hatası"
+
+#: ../src/gfu-main.c:1455
+msgid "Failed to unlock device"
+msgstr "Aygıt kilidi açılamadı"
+
+#. TRANSLATORS: command line option
+#: ../src/gfu-main.c:1590
+msgid "Show extra debugging information"
+msgstr "Ek hata ayıklama bilgisi göster"
+
+#. TRANSLATORS: the user has sausages for fingers
+#: ../src/gfu-main.c:1606
+msgid "Failed to parse command line options"
+msgstr "Komut satırı seçenekleri ayrıştırılamadı"

@@ -1,0 +1,6 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+data/appdata/org.gnome.Firmware.metainfo.xml.in
+data/org.gnome.Firmware.desktop.in
+src/gfu-main.c
+src/gfu-main.ui

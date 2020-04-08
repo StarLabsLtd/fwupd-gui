@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Firmware
+Comment=Install firmware on devices
+# TRANSLATORS: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=org.gnome.Firmware
+Exec=gnome-firmware
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+# TRANSLATORS: these are desktop keywords - remember the trailing ';' :)
+Keywords=Firmware;
+StartupNotify=true
+NoDisplay=false

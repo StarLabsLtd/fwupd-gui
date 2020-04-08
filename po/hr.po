@@ -1,0 +1,370 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# gogo <trebelnik2@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-firmware-updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-19 10:49+0100\n"
+"PO-Revision-Date: 2020-03-19 11:21+0100\n"
+"Last-Translator: gogo <trebelnik2@gmail.com>\n"
+"Language-Team: \n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#. set GUIDs->GUID if only one
+#: ../src/gfu-main.c:262
+msgid "GUID"
+msgid_plural "GUIDs"
+msgstr[0] "GUID"
+msgstr[1] "GUID"
+msgstr[2] "GUID"
+
+#: ../src/gfu-main.c:274
+msgid "Cryptographic hashes match"
+msgstr "Kriptografski kontrolni zbrojevi se podudaraju"
+
+#: ../src/gfu-main.c:279
+msgid "Firmware checksum"
+msgstr "Kontrolni zbroj firmvera"
+
+#: ../src/gfu-main.c:281
+msgid "Device checksum"
+msgstr "Kontrolni zbroj uređaja"
+
+#: ../src/gfu-main.c:335
+msgid "Checksum"
+msgid_plural "Checksums"
+msgstr[0] "Kontrolni zbroj"
+msgstr[1] "Kontrolni zbrojevi"
+msgstr[2] "Kontrolni zbrojevi"
+
+#. TRANSLATORS: e.g. CVEs
+#: ../src/gfu-main.c:354
+msgid "Fixed Issue"
+msgid_plural "Fixed Issues"
+msgstr[0] "Popravljeni problem"
+msgstr[1] "Popravljeni problemi"
+msgstr[2] "Popravljeni problemi"
+
+#. TRANSLATORS: upgrading the firmware
+#: ../src/gfu-main.c:397 ../src/gfu-main.c:1223
+msgid "Upgrade"
+msgstr "Nadogradnja"
+
+#. TRANSLATORS: downgrading the firmware
+#: ../src/gfu-main.c:400 ../src/gfu-main.c:1227
+msgid "Downgrade"
+msgstr "Vraćanje na stariju inačicu"
+
+#. TRANSLATORS: installing the same firmware that is currently installed
+#: ../src/gfu-main.c:403 ../src/gfu-main.c:1216
+msgid "Reinstall"
+msgstr "Ponovno instaliraj"
+
+#. TRANSLATORS: general install button in the event of an error; not clickable
+#: ../src/gfu-main.c:409
+msgid "Install"
+msgstr "Instaliraj"
+
+#. TRANSLATORS: prompting a shutdown to the user
+#: ../src/gfu-main.c:541
+msgid "An update requires the system to shutdown to complete."
+msgstr "Nadopuna zahtijeva isključivanje sustava kako bi se završila."
+
+#. TRANSLATORS: error in shutting down the system
+#: ../src/gfu-main.c:562
+msgid "Failed to shutdown device"
+msgstr "Neuspjelo isključivanje uređaja"
+
+#: ../src/gfu-main.c:562
+msgid "A manual shutdown is required."
+msgstr "Ručno isključivanje je potrebno."
+
+#. TRANSLATORS: prompting a reboot to the user
+#: ../src/gfu-main.c:584
+msgid "An update requires a reboot to complete."
+msgstr "Nadopuna zahtijeva ponovno pokretanje sustava kako bi se završila."
+
+#. TRANSLATORS: error in rebooting down the system
+#: ../src/gfu-main.c:605
+msgid "Failed to reboot device"
+msgstr "Neuspjelo ponovno pokretanje uređaja"
+
+#: ../src/gfu-main.c:605
+msgid "A manual reboot is required."
+msgstr "Ručno ponovno pokretanje je potrebno."
+
+#: ../src/gfu-main.c:640
+msgid "Failed to load list of remotes"
+msgstr "Neuspjelo učitavanje popisa udaljenih lokacija"
+
+#: ../src/gfu-main.c:677 ../src/gfu-main.c:1134
+msgid "Failed to load device list"
+msgstr "Neuspjelo učitavanje popisa uređaja"
+
+#: ../src/gfu-main.c:794
+msgid "Downloading"
+msgstr "Preuzimanje"
+
+#: ../src/gfu-main.c:816
+msgid "File already downloaded..."
+msgstr "Datoteka je već preuzeta..."
+
+#: ../src/gfu-main.c:830
+msgid "Downloading file..."
+msgstr "Preuzimanje datoteke..."
+
+#. TRANSLATORS: downloading new signing file
+#: ../src/gfu-main.c:843
+msgid "Fetching signature"
+msgstr "Dohvaćanje potpisa"
+
+#: ../src/gfu-main.c:844
+msgid "Fetching signature..."
+msgstr "Dohvaćanje potpisa..."
+
+#. TRANSLATORS: downloading new metadata file
+#: ../src/gfu-main.c:847
+msgid "Fetching metadata"
+msgstr "Dohvaćanje metapodataka"
+
+#: ../src/gfu-main.c:848
+msgid "Fetching metadata..."
+msgstr "Dohvaćanje metapodataka..."
+
+#. TRANSLATORS: downloading new firmware file
+#: ../src/gfu-main.c:851
+msgid "Fetching firmware"
+msgstr "Dohvaćanje frimvera"
+
+#: ../src/gfu-main.c:852
+msgid "Fetching firmware..."
+msgstr "Dohvaćanje frimvera..."
+
+#. TRANSLATORS: downloading unknown file
+#: ../src/gfu-main.c:855
+msgid "Fetching file"
+msgstr "Dohvaćanje datoteke"
+
+#: ../src/gfu-main.c:856
+msgid "Fetching file..."
+msgstr "Dohvaćanje datoteke..."
+
+#. TRANSLATORS: the server is rate-limiting downloads
+#: ../src/gfu-main.c:870
+msgid "Failed to download due to server limit"
+msgstr "Neuspjelo preuzimanje zbog ograničenja poslužitelja"
+
+#: ../src/gfu-main.c:876
+#, c-format
+msgid "Failed to download due to server limit: %s"
+msgstr "Neuspjelo preuzimanje zbog ograničenja poslužitelja: %s"
+
+#: ../src/gfu-main.c:883
+#, c-format
+msgid "Failed to download %s: %s"
+msgstr "Neuspjelo preuzimanje %s: %s"
+
+#: ../src/gfu-main.c:897
+#, c-format
+msgid "Checksum invalid, expected %s got %s"
+msgstr "Pogrešan kontrolni zbroj, očekivan %s dobiven %s"
+
+#: ../src/gfu-main.c:911
+#, c-format
+msgid "Failed to save file: %s"
+msgstr "Neuspjelo spremanje datoteke: %s"
+
+#. TRANSLATORS: creating directory for the firmware download
+#: ../src/gfu-main.c:938 ../src/gfu-main.c:1092
+msgid "Creating cache path..."
+msgstr "Stvaranje putanje predmemorije..."
+
+#: ../src/gfu-main.c:942 ../src/gfu-main.c:951 ../src/gfu-main.c:1088
+msgid "Preparing to download file..."
+msgstr "Pripremanje preuzimanja datoteke..."
+
+#: ../src/gfu-main.c:977
+msgid "Failed to enable LVFS"
+msgstr "Neuspjelo omogućavanje LVFS (Firmver Usluge Linux Proizvođača)"
+
+#: ../src/gfu-main.c:985
+msgid "Failed to find LVFS"
+msgstr "Neuspjelo pronalaženje LVFS (Firmver Usluge Linux Proizvođača)"
+
+#: ../src/gfu-main.c:990
+msgid "Failed to download metadata for LVFS"
+msgstr ""
+"Neuspjelo preuzimanje metapodataka LVFS (Firmver Usluge Linux Proizvođača)"
+
+#: ../src/gfu-main.c:1032
+msgid "Failed to download metadata"
+msgstr "Neuspjelo preuzimanje metapodataka"
+
+#. TRANSLATORS: %1 is device name, %2 is the version
+#: ../src/gfu-main.c:1194
+#, c-format
+msgid "Reinstall %s firmware version %s"
+msgstr "Ponovno instaliraj %s inačicu firmvera %s"
+
+#. TRANSLATORS: %1 is device name, %2 is the version
+#: ../src/gfu-main.c:1197
+#, c-format
+msgid "Upgrade %s firmware version %s"
+msgstr "Nadogradi %s inačicu firmvera %s"
+
+#. TRANSLATORS: %1 is device name, %2 is the version
+#: ../src/gfu-main.c:1200
+#, c-format
+msgid "Downgrade %s firmware version %s"
+msgstr "Vrati %s na stariju inačicu firmvera %s"
+
+#. TRANSLATORS: %1 is device name, %2 is the version
+#: ../src/gfu-main.c:1203
+#, c-format
+msgid "Install %s firmware version %s"
+msgstr "Instaliraj %s inačicu firmvera %s"
+
+#: ../src/gfu-main.c:1213
+msgid "Cancel"
+msgstr "Odustani"
+
+#: ../src/gfu-main.c:1233
+msgid "The device will remain usable for the duration of the update"
+msgstr "Uređaj će ostati upotrebljiv tijekom trajanja nadopune"
+
+#: ../src/gfu-main.c:1236
+msgid "The device will be unusable while the update is installing"
+msgstr "Uređaj će ostati neupotrebljiv tijekom instalacije nadopune"
+
+#: ../src/gfu-main.c:1239
+msgid "Reinstall this firmware file?"
+msgstr "Želite li ponovno instalirati ovu datoteku firmvera?"
+
+#: ../src/gfu-main.c:1239
+msgid "Install this firmware file?"
+msgstr "Želite li instalirati ovu datoteku frimvera?"
+
+#: ../src/gfu-main.c:1257
+msgid "Failed to install firmware release"
+msgstr "Neuspjela instalacija izdanja frimvera"
+
+#. TRANSLATORS: inform the user that the installation was successful onto the device
+#: ../src/gfu-main.c:1289
+msgid "Installation successful"
+msgstr "Instalacija uspješna"
+
+#: ../src/gfu-main.c:1291
+#, c-format
+msgid "Installed firmware version %s on %s"
+msgstr "Instalirana inačica frimvera %s na %s"
+
+#: ../src/gfu-main.c:1338
+msgid "Verify firmware checksums?"
+msgstr "Provjeri kontrolni zbroj firmvera?"
+
+#: ../src/gfu-main.c:1340
+msgid "The device may be unusable during this action"
+msgstr "Uređaj će ostati neupotrebljiv tijekom ove radnje"
+
+#. TRANSLATORS: verify means checking the actual checksum of the firmware
+#: ../src/gfu-main.c:1350
+msgid "Failed to verify firmware"
+msgstr "Neuspjela provjera firmvera"
+
+#. TRANSLATORS: inform the user that the firmware verification was successful
+#: ../src/gfu-main.c:1357
+msgid "Verification succeeded"
+msgstr "Provjera uspješna"
+
+#. TRANSLATORS: firmware is cryptographically identical
+#: ../src/gfu-main.c:1360
+#, c-format
+msgid "%s firmware checksums matched"
+msgstr "%s kontrolni zbroj frimvera je istovjetan"
+
+#: ../src/gfu-main.c:1385
+msgid "Update cryptographic hash"
+msgstr "Nadopuni kriptografski kontrolni zbroj"
+
+#: ../src/gfu-main.c:1387
+msgid "Record current device cryptographic hashes as verified?"
+msgstr "Spremi trenutne kriptografske kontrolne zbrojeve kao provjerene?"
+
+#. TRANSLATORS: verify means checking the actual checksum of the firmware
+#: ../src/gfu-main.c:1397
+msgid "Failed to update checksums"
+msgstr "Neuspjela nadopuna kontrolnih zbrojeva"
+
+#. TRANSLATORS: the title of the about window
+#: ../src/gfu-main.c:1429
+msgid "About GNOME Firmware"
+msgstr "O GNOME Firmveru"
+
+#. TRANSLATORS: the application name for the about UI
+#. TRANSLATORS: command description
+#: ../src/gfu-main.c:1431 ../src/gfu-main.c:1792
+msgid "GNOME Firmware"
+msgstr "GNOME Firmver"
+
+#. TRANSLATORS: one-line description for the app
+#: ../src/gfu-main.c:1434
+msgid "Install firmware on devices"
+msgstr "Instalirajte firmvere na uređajima"
+
+#. TRANSLATORS: you can put your name here :)
+#: ../src/gfu-main.c:1439
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  gogo https://launchpad.net/~trebelnik-stefina"
+
+#. TRANSLATORS: time remaining for completing firmware flash
+#: ../src/gfu-main.c:1528
+msgid "Less than one minute remaining"
+msgstr "Preostalo je manje od minute"
+
+#. more than a minute
+#: ../src/gfu-main.c:1532
+#, c-format
+msgid "%.0f minute remaining"
+msgid_plural "%.0f minutes remaining"
+msgstr[0] "%.0f minuta je preostala"
+msgstr[1] "%.0f minute su preostale"
+msgstr[2] "%.0f minuta je preostalo"
+
+#: ../src/gfu-main.c:1605
+msgid "Error connecting to fwupd"
+msgstr "Greška povezivanja sa fwupd"
+
+#: ../src/gfu-main.c:1642
+msgid "Failed to unlock device"
+msgstr "Neuspjelo otključavanje uređaja"
+
+#. TRANSLATORS: command line option
+#: ../src/gfu-main.c:1781
+msgid "Show extra debugging information"
+msgstr "Prikaži dodatne informacije o rješavanju grešaka"
+
+#. TRANSLATORS: the user has sausages for fingers
+#: ../src/gfu-main.c:1797
+msgid "Failed to parse command line options"
+msgstr "Neuspjela obrada mogućnosti naredbenog redka"
+
+#~ msgid "Installing file to device..."
+#~ msgstr "Instalacija datoteke u uređaj..."
+
+#~ msgid ""
+#~ "This firmware version is already installed on the device. Reinstall this "
+#~ "firmware file?"
+#~ msgstr ""
+#~ "Ova inačica frimvera je već instalirana na uređaj. Želite li ponovno "
+#~ "instalirati ovu datoteku frimvera?"

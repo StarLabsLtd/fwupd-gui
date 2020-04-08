@@ -1,0 +1,287 @@
+# Italian translations for gnome-firmware-updater package
+# Copyright (C) 2019 the gnome-firmware-updater copyright holder
+# This file is distributed under the same license as the gnome-firmware-updater package.
+# Milo Casagrande <milo@milo.name>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gnome-firmware-updater\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-18 09:39+0200\n"
+"PO-Revision-Date: 2019-09-20 10:29+0200\n"
+"Last-Translator: Milo Casagrande <milo@milo.name>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#. set GUIDs->GUID if only one
+#: ../src/gfu-main.c:257
+msgid "GUID"
+msgid_plural "GUIDs"
+msgstr[0] "GUID"
+msgstr[1] "GUIDs"
+
+#: ../src/gfu-main.c:306
+msgid "Checksum"
+msgid_plural "Checksums"
+msgstr[0] "Checksum"
+msgstr[1] "Checksums"
+
+#. TRANSLATORS: e.g. CVEs
+#: ../src/gfu-main.c:325
+msgid "Fixed Issue"
+msgid_plural "Fixed Issues"
+msgstr[0] "Problema risolto"
+msgstr[1] "Problemi risolti"
+
+#. TRANSLATORS: upgrading the firmware
+#: ../src/gfu-main.c:368
+msgid "Install Upgrade"
+msgstr "Installa aggiornamento"
+
+#. TRANSLATORS: downgrading the firmware
+#: ../src/gfu-main.c:371
+msgid "Install Downgrade"
+msgstr "Installa versione precedente"
+
+#. TRANSLATORS: installing the same firmware that is currently installed
+#: ../src/gfu-main.c:374 ../src/gfu-main.c:1148
+msgid "Reinstall"
+msgstr "Reinstalla"
+
+#. TRANSLATORS: general install button in the event of an error; not clickable
+#: ../src/gfu-main.c:380 ../src/gfu-main.c:1152
+msgid "Install"
+msgstr "Installa"
+
+#. TRANSLATORS: prompting a shutdown to the user
+#: ../src/gfu-main.c:499
+msgid "An update requires the system to shutdown to complete."
+msgstr "Un aggiornamento richiede l'arresto del sistema per essere completato."
+
+#. TRANSLATORS: error in shutting down the system
+#: ../src/gfu-main.c:520
+msgid "Failed to shutdown device"
+msgstr "Arresto del dispositivo non riuscito"
+
+#: ../src/gfu-main.c:520
+msgid "A manual shutdown is required."
+msgstr "È necessario un arresto manuale."
+
+#. TRANSLATORS: prompting a reboot to the user
+#: ../src/gfu-main.c:542
+msgid "An update requires a reboot to complete."
+msgstr "Un aggiornamento richiede il riavvio per essere completato."
+
+#. TRANSLATORS: error in rebooting down the system
+#: ../src/gfu-main.c:563
+msgid "Failed to reboot device"
+msgstr "Riavvio del dispositivo non riuscito"
+
+#: ../src/gfu-main.c:563
+msgid "A manual reboot is required."
+msgstr "È necessario un riavvio manuale."
+
+#: ../src/gfu-main.c:598
+msgid "Failed to load list of remotes"
+msgstr "Caricamento dei dati remoti non riuscito"
+
+#: ../src/gfu-main.c:635 ../src/gfu-main.c:1079
+msgid "Failed to load device list"
+msgstr "Caricamento dell'elenco dispositivi non riuscito"
+
+#: ../src/gfu-main.c:742
+msgid "Downloading"
+msgstr "Scaricamento"
+
+#: ../src/gfu-main.c:764
+msgid "File already downloaded..."
+msgstr "File già scaricato…"
+
+#: ../src/gfu-main.c:778
+msgid "Downloading file..."
+msgstr "Scaricamento file…"
+
+#. TRANSLATORS: downloading new signing file
+#: ../src/gfu-main.c:791
+msgid "Fetching signature"
+msgstr "Recupero firma"
+
+#: ../src/gfu-main.c:792
+msgid "Fetching signature..."
+msgstr "Recupero firma…"
+
+#. TRANSLATORS: downloading new metadata file
+#: ../src/gfu-main.c:795
+msgid "Fetching metadata"
+msgstr "Recupero metadati"
+
+#: ../src/gfu-main.c:796
+msgid "Fetching metadata..."
+msgstr "Recupero metadati…"
+
+#. TRANSLATORS: downloading new firmware file
+#: ../src/gfu-main.c:799
+msgid "Fetching firmware"
+msgstr "Recupero firmware"
+
+#: ../src/gfu-main.c:800
+msgid "Fetching firmware..."
+msgstr "Recupero firmware…"
+
+#. TRANSLATORS: downloading unknown file
+#: ../src/gfu-main.c:803
+msgid "Fetching file"
+msgstr "Recupero file"
+
+#: ../src/gfu-main.c:804
+msgid "Fetching file..."
+msgstr "Recupero file…"
+
+#. TRANSLATORS: the server is rate-limiting downloads
+#: ../src/gfu-main.c:818
+msgid "Failed to download due to server limit"
+msgstr "Scaricamento non riuscito a cause di un limite del server"
+
+#: ../src/gfu-main.c:824
+#, c-format
+msgid "Failed to download due to server limit: %s"
+msgstr "Scaricamento non riuscito a cause di un limite del server: %s"
+
+#: ../src/gfu-main.c:831
+#, c-format
+msgid "Failed to download %s: %s"
+msgstr "Scaricamento di %s non riuscito: %s"
+
+#: ../src/gfu-main.c:845
+#, c-format
+msgid "Checksum invalid, expected %s got %s"
+msgstr "Codice di controllo non valido, atteso %s, ma ottenuto %s"
+
+#: ../src/gfu-main.c:859
+#, c-format
+msgid "Failed to save file: %s"
+msgstr "Salvataggio del file non riuscito: %s"
+
+#. TRANSLATORS: creating directory for the firmware download
+#: ../src/gfu-main.c:886 ../src/gfu-main.c:1039
+msgid "Creating cache path..."
+msgstr "Creazione percorso cache…"
+
+#: ../src/gfu-main.c:890 ../src/gfu-main.c:899 ../src/gfu-main.c:1035
+msgid "Preparing to download file..."
+msgstr "Preparazione allo scaricamento del file…"
+
+#: ../src/gfu-main.c:925
+msgid "Failed to enable LVFS"
+msgstr "Abilitazione LVFS non riuscita"
+
+#: ../src/gfu-main.c:933
+msgid "Failed to find LVFS"
+msgstr "Ricerca di LVFS non riuscita"
+
+#: ../src/gfu-main.c:938
+msgid "Failed to download metadata for LVFS"
+msgstr "Scaricamento metadati LVFS non riuscito"
+
+#: ../src/gfu-main.c:980
+msgid "Failed to download metadata"
+msgstr "Scaricamento metadati non riuscito"
+
+#: ../src/gfu-main.c:1051
+msgid "Installing file to device..."
+msgstr "Installazione file sul dispositivo…"
+
+#: ../src/gfu-main.c:1138
+#, c-format
+msgid "%s firmware version %s"
+msgstr "Firmware versione %2$s su %1$s"
+
+#: ../src/gfu-main.c:1141
+msgid "Cancel"
+msgstr "Annulla"
+
+#: ../src/gfu-main.c:1147
+msgid ""
+"This firmware version is already installed on the device. Reinstall this "
+"firmware file?"
+msgstr ""
+"Questa versione del firmware è già installata su questo dispositivo. "
+"Installare nuovamente il firmware?"
+
+#: ../src/gfu-main.c:1151
+msgid "Install this firmware file?"
+msgstr "Installare questo firmware?"
+
+#: ../src/gfu-main.c:1170
+msgid "Failed to install firmware release"
+msgstr "Installazione del rilascio firmware non riuscita"
+
+#. TRANSLATORS: inform the user that the installation was successful onto the device
+#: ../src/gfu-main.c:1202
+msgid "Installation successful"
+msgstr "Installazione effettuata con successo"
+
+#: ../src/gfu-main.c:1204
+#, c-format
+msgid "Installed firmware version %s on %s"
+msgstr "Firmware versione %s installato su %s"
+
+#. TRANSLATORS: verify means checking the actual checksum of the firmware
+#: ../src/gfu-main.c:1256 ../src/gfu-main.c:1263
+msgid "Failed to verify device"
+msgstr "Verifica del dispositivo non riuscita"
+
+#. TRANSLATORS: inform the user that the firmware verification was successful
+#: ../src/gfu-main.c:1273
+msgid "Verification succeeded"
+msgstr "Verifica effettuata con successo"
+
+#. TRANSLATORS: firmware is cryptographically identical
+#: ../src/gfu-main.c:1276
+#, c-format
+msgid "%s firmware checksums matched"
+msgstr "Il codice di controllo del firmware %s corrisponde"
+
+#. TRANSLATORS: the title of the about window
+#: ../src/gfu-main.c:1306
+msgid "About GNOME Firmware"
+msgstr "Informazioni su GNOME Firmware"
+
+#. TRANSLATORS: the application name for the about UI
+#. TRANSLATORS: command description
+#: ../src/gfu-main.c:1308 ../src/gfu-main.c:1601
+msgid "GNOME Firmware"
+msgstr "GNOME Firmware"
+
+#. TRANSLATORS: one-line description for the app
+#: ../src/gfu-main.c:1311
+msgid "Install firmware on devices"
+msgstr "Installa firmware su dispositivi"
+
+#. TRANSLATORS: you can put your name here :)
+#: ../src/gfu-main.c:1316
+msgid "translator-credits"
+msgstr "Milo Casagrande <milo@milo.name>"
+
+#: ../src/gfu-main.c:1418
+msgid "Error connecting to fwupd"
+msgstr "Errore nel collegarsi a fwupd"
+
+#: ../src/gfu-main.c:1455
+msgid "Failed to unlock device"
+msgstr "Sblocco del dispositivo non riuscito"
+
+#. TRANSLATORS: command line option
+#: ../src/gfu-main.c:1590
+msgid "Show extra debugging information"
+msgstr "Mostra informazioni di debug aggiuntive"
+
+#. TRANSLATORS: the user has sausages for fingers
+#: ../src/gfu-main.c:1606
+msgid "Failed to parse command line options"
+msgstr "Analisi della riga di comando non riuscita"

@@ -1,0 +1,35 @@
+#i18n.merge_file(
+#input: 'org.gnome.Firmware.metainfo.xml.in',
+#output: 'org.gnome.Firmware.metainfo.xml',
+#type: 'xml',
+#po_dir: join_paths(meson.source_root(), 'po'),
+#install: true,
+#install_dir: join_paths(prefixed_datadir, 'metainfo'),
+#)
+
+made_xml = [
+	'org.gnome.Firmware.metainfo.xml',
+]
+install_data(made_xml, install_dir: join_paths(prefixed_datadir, 'metainfo'))
+
+
+
+
+#install_data(
+#	'org.freedesktop.fwupd.rules',
+#	install_dir : 'share/polkit-1/rules.d')
+
+envbin = find_program('env')
+
+gettext_data_dir = 'GETTEXTDATADIRS=' + meson.source_root()
+
+custom_target('org.gnome.Firmware.metainfo',
+	output: 'org.gnome.Firmware.metainfo.xml',
+	input: 'org.gnome.Firmware.metainfo.xml.in',
+	command: [envbin, gettext_data_dir, 'msgfmt', '--xml',
+		'--template', '@INPUT@',
+		'-d', join_paths(meson.source_root(), 'po'),
+		'-o', '@OUTPUT@'],
+	install: true,
+	install_dir: join_paths(prefixed_datadir, 'metainfo')
+)

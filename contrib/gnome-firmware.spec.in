@@ -1,0 +1,55 @@
+Name:      gnome-firmware
+Version:   #VERSION#
+Release:   0.#BUILD#%{?alphatag}%{?dist}
+Summary:   GNOME Firmware
+
+License:   GPLv2+
+URL:       https://gitlab.gnome.org/hughsie/gnome-firmware
+Source0:   https://people.freedesktop.org/~hughsient/releases/%{name}-%{version}.tar.xz
+
+BuildRequires: gcc
+BuildRequires: meson
+BuildRequires: gettext
+BuildRequires: fwupd-devel >= 1.2.10
+BuildRequires: gtk3-devel
+BuildRequires: libxmlb-devel
+BuildRequires: libappstream-glib-devel
+BuildRequires: libsoup-devel
+BuildRequires: desktop-file-utils
+BuildRequires: help2man
+
+# old version only used for prototyping
+Obsoletes: gnome-firmware-updater
+
+%description
+This application can update, reinstall and downgrade firmware on devices
+supported by fwupd.
+
+%prep
+%autosetup -p1
+
+%build
+%meson -Dman=true
+%meson_build
+
+%install
+%meson_install
+
+%find_lang %name --with-gnome
+
+%check
+desktop-file-validate %{buildroot}%{_datadir}/applications/*.desktop
+
+%files -f %{name}.lang
+%doc README.md
+%license COPYING
+%{_bindir}/gnome-firmware
+%{_datadir}/applications/org.gnome.Firmware.desktop
+%{_datadir}/metainfo/org.gnome.Firmware.metainfo.xml
+%{_datadir}/man/man1/*.1.gz
+%{_datadir}/icons/hicolor/scalable/apps/org.gnome.Firmware*.svg
+%{_datadir}/icons/hicolor/symbolic/apps/org.gnome.Firmware-symbolic.svg
+
+%changelog
+* #LONGDATE# Richard Hughes <richard@hughsie.com> #VERSION#-0.#BUILD##ALPHATAG#
+- Update from GIT
