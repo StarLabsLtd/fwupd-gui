@@ -76,7 +76,7 @@ build src/firmware-update.1: CUSTOM_COMMAND src/firmware-update | /usr/bin/help2
  description = Generating$ firmware-update-man$ with$ a$ custom$ command.
 
 build meson-firmware-update-pot: CUSTOM_COMMAND 
- COMMAND = /usr/bin/meson --internal commandrunner /home/sean/Documents/firmware-update /home/sean/Documents/firmware-update/build po /usr/bin/meson /usr/bin/meson --internal gettext pot --pkgname=firmware-update --extra-args=--flag=g_error_new:3:c-format@@--flag=g_printerr:1:c-format@@--flag=N_:1:pass-c-format@@--flag=g_string_append_printf:2:c-format@@--flag=g_snprintf:3:c-format@@--keyword=C_:1c,2@@--flag=NC_:2:pass-c-format@@--keyword=g_dpgettext2:2c,3@@--flag=g_strdup_printf:1:c-format@@--flag=g_fprintf:2:c-format@@--flag=g_log:3:c-format@@--flag=C_:2:pass-c-format@@--keyword=g_dcgettext:2@@--from-code=UTF-8@@--keyword=N_@@--keyword=_@@--flag=g_markup_printf_escaped:1:c-format@@--flag=g_set_error:4:c-format@@--flag=g_dngettext:2:pass-c-format@@--default-domain=firmware-update@@--add-comments@@--flag=g_printf:1:c-format@@--keyword=g_dngettext:2,3@@--keyword=NC_:1c,2@@--flag=g_sprintf:2:c-format@@--flag=g_print:1:c-format@@--flag=g_string_printf:2:c-format
+ COMMAND = /usr/bin/meson --internal commandrunner /home/sean/Documents/firmware-update /home/sean/Documents/firmware-update/build po /usr/bin/meson /usr/bin/meson --internal gettext pot --pkgname=firmware-update --extra-args=--keyword=N_@@--flag=NC_:2:pass-c-format@@--keyword=_@@--flag=g_printf:1:c-format@@--flag=g_string_printf:2:c-format@@--flag=g_snprintf:3:c-format@@--keyword=C_:1c,2@@--flag=g_log:3:c-format@@--flag=C_:2:pass-c-format@@--flag=g_markup_printf_escaped:1:c-format@@--flag=g_set_error:4:c-format@@--keyword=NC_:1c,2@@--flag=g_print:1:c-format@@--flag=g_printerr:1:c-format@@--flag=g_fprintf:2:c-format@@--add-comments@@--flag=g_string_append_printf:2:c-format@@--keyword=g_dcgettext:2@@--flag=g_strdup_printf:1:c-format@@--flag=g_error_new:3:c-format@@--keyword=g_dpgettext2:2c,3@@--default-domain=firmware-update@@--keyword=g_dngettext:2,3@@--from-code=UTF-8@@--flag=N_:1:pass-c-format@@--flag=g_sprintf:2:c-format@@--flag=g_dngettext:2:pass-c-format
  description = Running$ external$ command$ firmware-update-pot.
  pool = console
 
@@ -90,15 +90,15 @@ build meson-firmware-update-gmo: CUSTOM_COMMAND
 build firmware-update-gmo: phony meson-firmware-update-gmo
 
 build meson-firmware-update-update-po: CUSTOM_COMMAND 
- COMMAND = /usr/bin/meson --internal commandrunner /home/sean/Documents/firmware-update /home/sean/Documents/firmware-update/build po /usr/bin/meson /usr/bin/meson --internal gettext update_po --pkgname=firmware-update --extra-args=--flag=g_error_new:3:c-format@@--flag=g_printerr:1:c-format@@--flag=N_:1:pass-c-format@@--flag=g_string_append_printf:2:c-format@@--flag=g_snprintf:3:c-format@@--keyword=C_:1c,2@@--flag=NC_:2:pass-c-format@@--keyword=g_dpgettext2:2c,3@@--flag=g_strdup_printf:1:c-format@@--flag=g_fprintf:2:c-format@@--flag=g_log:3:c-format@@--flag=C_:2:pass-c-format@@--keyword=g_dcgettext:2@@--from-code=UTF-8@@--keyword=N_@@--keyword=_@@--flag=g_markup_printf_escaped:1:c-format@@--flag=g_set_error:4:c-format@@--flag=g_dngettext:2:pass-c-format@@--default-domain=firmware-update@@--add-comments@@--flag=g_printf:1:c-format@@--keyword=g_dngettext:2,3@@--keyword=NC_:1c,2@@--flag=g_sprintf:2:c-format@@--flag=g_print:1:c-format@@--flag=g_string_printf:2:c-format
+ COMMAND = /usr/bin/meson --internal commandrunner /home/sean/Documents/firmware-update /home/sean/Documents/firmware-update/build po /usr/bin/meson /usr/bin/meson --internal gettext update_po --pkgname=firmware-update --extra-args=--keyword=N_@@--flag=NC_:2:pass-c-format@@--keyword=_@@--flag=g_printf:1:c-format@@--flag=g_string_printf:2:c-format@@--flag=g_snprintf:3:c-format@@--keyword=C_:1c,2@@--flag=g_log:3:c-format@@--flag=C_:2:pass-c-format@@--flag=g_markup_printf_escaped:1:c-format@@--flag=g_set_error:4:c-format@@--keyword=NC_:1c,2@@--flag=g_print:1:c-format@@--flag=g_printerr:1:c-format@@--flag=g_fprintf:2:c-format@@--add-comments@@--flag=g_string_append_printf:2:c-format@@--keyword=g_dcgettext:2@@--flag=g_strdup_printf:1:c-format@@--flag=g_error_new:3:c-format@@--keyword=g_dpgettext2:2c,3@@--default-domain=firmware-update@@--keyword=g_dngettext:2,3@@--from-code=UTF-8@@--flag=N_:1:pass-c-format@@--flag=g_sprintf:2:c-format@@--flag=g_dngettext:2:pass-c-format
  description = Running$ external$ command$ firmware-update-update-po.
  pool = console
 
 build firmware-update-update-po: phony meson-firmware-update-update-po
 
-build data/appdata/firmware-update.metainfo.xml: CUSTOM_COMMAND ../data/appdata/firmware-update.metainfo.xml.in
- COMMAND = /usr/bin/meson --internal msgfmthelper ../data/appdata/firmware-update.metainfo.xml.in data/appdata/firmware-update.metainfo.xml xml /home/sean/Documents/firmware-update/po
- description = Generating$ firmware-update.metainfo.xml_data@appdata_merge$ with$ a$ custom$ command.
+build data/appdata/firmware-update.metainfo.xml: CUSTOM_COMMAND ../data/appdata/firmware-update.metainfo.xml.in | /usr/bin/env
+ COMMAND = /usr/bin/env GETTEXTDATADIRS=/home/sean/Documents/firmware-update msgfmt --xml --template ../data/appdata/firmware-update.metainfo.xml.in -d /po -o data/appdata/firmware-update.metainfo.xml
+ description = Generating$ firmware-update.metainfo$ with$ a$ custom$ command.
 
 build data/firmware-update.desktop: CUSTOM_COMMAND ../data/firmware-update.desktop.in
  COMMAND = /usr/bin/meson --internal msgfmthelper ../data/firmware-update.desktop.in data/firmware-update.desktop desktop /home/sean/Documents/firmware-update/po

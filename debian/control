@@ -1,4 +1,4 @@
-Source: firmware-update
+Source: fwupd-gui
 Section: gnome
 Priority: optional
 Maintainer: Star Labs Systems <support@starlabs.systems>
@@ -18,8 +18,8 @@ Homepage: https://starlabs.systems
 Vcs-Browser: 
 Vcs-Git: 
 
-Package: firmware-update
+Package: fwupd-gui
 Architecture: all
 Description: Firmware Update GUI
 Depends: fwupd, libxmlb1, libfwupd2
-Provides: firmware-update
+Provides: fwupd-gui
