@@ -1417,7 +1417,7 @@ gfu_main_about_activated_cb (GSimpleAction *action, GVariant *parameter, gpointe
 	GfuMain *self = (GfuMain *) user_data;
 	GList *windows;
 	GtkWindow *parent = NULL;
-	const gchar *authors[] = { "Richard Hughes", "Andrew Schwenn", NULL };
+	const gchar *authors[] = { "Richard Hughes", "Andrew Schwenn", "Sean Rhodes", NULL };
 	const gchar *copyright = "Copyright \xc2\xa9 2020 Richard Hughes";
 
 	windows = gtk_application_get_windows (GTK_APPLICATION (self->application));

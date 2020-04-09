@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=Firmware Update
+Comment[hr]=Instalirajte firmvere na uređajima
+Comment[it]=Installa firmware su dispositivi
+Comment[tr]=Ürün yazılımını aygıtlara kur
+Comment=Install firmware on devices
+# TRANSLATORS: Do NOT translate or transliterate this text (this is an icon file name)!
+Icon=firmware-update
+Exec=firmware-update
+Terminal=false
+Type=Application
+Categories=GNOME;GTK;Utility;
+# TRANSLATORS: these are desktop keywords - remember the trailing ';' :)
+Keywords=Firmware;
+StartupNotify=true
+NoDisplay=false

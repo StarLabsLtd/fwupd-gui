@@ -1,4 +1,4 @@
-project('gnome-firmware', 'c',
+project('firmware-update', 'c',
   version : '3.34.1',
   default_options : ['warning_level=1'],
   meson_version : '>=0.46.0'
@@ -111,7 +111,7 @@ configure_file(
 )
 
 subdir('src')
-# subdir('po')
+subdir('po')
 subdir('data')
 
 if meson.version().version_compare('<0.41.0')

@@ -11,7 +11,7 @@
       <object class="GtkHeaderBar" id="header">
         <property name="visible">True</property>
         <property name="can_focus">False</property>
-        <property name="title" translatable="yes">Firmware</property>
+        <property name="title" translatable="yes">Firmware Update</property>
         <property name="show_close_button">True</property>
         <child>
           <object class="GtkButton" id="button_back">

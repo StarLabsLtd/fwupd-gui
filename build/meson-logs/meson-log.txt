@@ -1,0 +1,593 @@
+Build started at 2020-04-09T09:56:24.550864
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.51.2
+Source dir: /home/sean/Documents/firmware-update
+Build dir: /home/sean/Documents/firmware-update/build
+Build type: native build
+Project name: firmware-update
+Project version: 3.34.1
+C compiler for the host machine: cc (gcc 9.2.1 "cc (Ubuntu 9.2.1-9ubuntu2) 9.2.1 20191008")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Using cached compile:
+Cached command line:  cc /tmp/tmp_ltzs8jf/testfile.c -o /tmp/tmp_ltzs8jf/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Waggregate-return 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpep80od50/testfile.c -o /tmp/tmpep80od50/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Warray-bounds 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Warray-bounds: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmptyyhnep4/testfile.c -o /tmp/tmptyyhnep4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpuggpxf_7/testfile.c -o /tmp/tmpuggpxf_7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wclobbered 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wclobbered: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpaqetu4e7/testfile.c -o /tmp/tmpaqetu4e7/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpuu_7jbwa/testfile.c -o /tmp/tmpuu_7jbwa/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp4uccp85h/testfile.c -o /tmp/tmp4uccp85h/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wextra: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmphjgyfvo5/testfile.c -o /tmp/tmphjgyfvo5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat=2 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wformat=2: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpjc6mc4px/testfile.c -o /tmp/tmpjc6mc4px/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-security: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp301hqsix/testfile.c -o /tmp/tmp301hqsix/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-signedness 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-signedness: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp0t_hlokw/testfile.c -o /tmp/tmp0t_hlokw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wignored-qualifiers: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp1vnqb988/testfile.c -o /tmp/tmp1vnqb988/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-function-declaration 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpt2yh9a96/testfile.c -o /tmp/tmpt2yh9a96/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp6qqc9exg/testfile.c -o /tmp/tmp6qqc9exg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winline 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Winline: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpq2eyi5fx/testfile.c -o /tmp/tmpq2eyi5fx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpq07dnqbc/testfile.c -o /tmp/tmpq07dnqbc/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-format-attribute: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpxhtm662b/testfile.c -o /tmp/tmpxhtm662b/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp7l75ud0m/testfile.c -o /tmp/tmp7l75ud0m/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-noreturn 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-noreturn: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpvfg6k_gn/testfile.c -o /tmp/tmpvfg6k_gn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-parameter-type 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-parameter-type: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp5g7m5zme/testfile.c -o /tmp/tmp5g7m5zme/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpsi9y13eo/testfile.c -o /tmp/tmpsi9y13eo/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpvo71k14f/testfile.c -o /tmp/tmpvo71k14f/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp81ycw9jg/testfile.c -o /tmp/tmp81ycw9jg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-field-initializers -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers -Wmissing-field-initializers: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpgymtx7ao/testfile.c -o /tmp/tmpgymtx7ao/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpzk7tswks/testfile.c -o /tmp/tmpzk7tswks/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-suggest-attribute=format -Wsuggest-attribute=format 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-suggest-attribute=format -Wsuggest-attribute=format: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpaes9ly_d/testfile.c -o /tmp/tmpaes9ly_d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp5p_np6ei/testfile.c -o /tmp/tmp5p_np6ei/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-function-type -Wcast-function-type 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-function-type -Wcast-function-type: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmptbdg9o92/testfile.c -o /tmp/tmptbdg9o92/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp8t55l869/testfile.c -o /tmp/tmp8t55l869/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpvvihu7uz/testfile.c -o /tmp/tmpvvihu7uz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Woverride-init 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Woverride-init: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpt686mout/testfile.c -o /tmp/tmpt686mout/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpacked 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wpacked: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpzfkrku_t/testfile.c -o /tmp/tmpzfkrku_t/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp9pmv3fa9/testfile.c -o /tmp/tmp9pmv3fa9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpe86l_2r_/testfile.c -o /tmp/tmpe86l_2r_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wreturn-type 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wreturn-type: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpkbqpi7gb/testfile.c -o /tmp/tmpkbqpi7gb/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp6fdz_5x1/testfile.c -o /tmp/tmp6fdz_5x1/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpan0wz1gh/testfile.c -o /tmp/tmpan0wz1gh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp97p4lj1d/testfile.c -o /tmp/tmp97p4lj1d/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpyq13688u/testfile.c -o /tmp/tmpyq13688u/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wswitch-default 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wswitch-default: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpunw8epui/testfile.c -o /tmp/tmpunw8epui/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp3r96aujk/testfile.c -o /tmp/tmp3r96aujk/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpqt8v0_gy/testfile.c -o /tmp/tmpqt8v0_gy/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wuninitialized 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wuninitialized: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpnbq3u57z/testfile.c -o /tmp/tmpnbq3u57z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-variable: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmpjmzbb005/testfile.c -o /tmp/tmpjmzbb005/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ int i;
+
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp5_z5fbqp/testfile.c -o /tmp/tmp5_z5fbqp/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,relro 
+
+Code:
+ int main() { return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,-z,relro: YES (cached)
+Using cached compile:
+Cached command line:  cc /tmp/tmp150y1n6j/testfile.c -o /tmp/tmp150y1n6j/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,now 
+
+Code:
+ int main() { return 0; }
+Cached compiler stdout:
+ 
+Cached compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,-z,now: YES (cached)
+Dependency gtk+-3.0 found: YES (cached)
+Dependency gio-2.0 found: YES (cached)
+Dependency fwupd found: YES (cached)
+Dependency xmlb found: YES (cached)
+Dependency libsoup-2.4 found: YES (cached)
+Dependency systemd found: YES (cached)
+Configuring config.h using configuration
+Pkg-config binary for MachineChoice.BUILD is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.BUILD at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.62.4
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+Running compile:
+Working directory:  /tmp/tmpgo8rjufz
+Command line:  cc /tmp/tmpgo8rjufz/testfile.c -o /tmp/tmpgo8rjufz/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main() {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /tmp/tmpxnrgzud0
+Command line:  cc /tmp/tmpxnrgzud0/testfile.c -o /tmp/tmpxnrgzud0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Program help2man found: YES (/usr/bin/help2man)
+Build targets in project: 9
+Found ninja-1.9.0 at /usr/bin/ninja
+Running compile:
+Working directory:  /tmp/tmplu3oe1xz
+Command line:  cc /tmp/tmplu3oe1xz/testfile.c -o /tmp/tmplu3oe1xz/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
