@@ -1,0 +1,12 @@
+# ninja log v5
+0	9	1586876660074209867	src/firmware-update-resources.h	f2f37f47e643de5e
+0	11	1586876660074209867	src/firmware-update-resources.c	2b61b4637da52040
+0	13	1586876660078210021	data/appdata/firmware-update.metainfo.xml	76a8cb9de1352612
+1	197	1586876660238216138	data/firmware-update.desktop	c9220b88293d3ede
+11	232	1586876660294218278	src/25a6634@@firmware-update@exe/meson-generated_.._firmware-update-resources.c.o	57e423696cac997b
+9	331	1586876660394222102	src/25a6634@@firmware-update@exe/gfu-device-row.c.o	ee4d1bf25c501ed3
+10	400	1586876660466224853	src/25a6634@@firmware-update@exe/gfu-release-row.c.o	52929c48e02da12a
+10	485	1586876660550228065	src/25a6634@@firmware-update@exe/gfu-main.c.o	c7d0b1bf5888b6ac
+485	647	1586876660710234183	src/firmware-update	1f7e6d2625cc842
+647	706	1586876660770236476	src/firmware-update.1	216af4d6552129e4
+2	3812	0	meson-install	9bd7faa9472bf40f

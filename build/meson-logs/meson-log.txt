@@ -1,0 +1,751 @@
+Build started at 2020-04-14T16:04:17.181536
+Main binary: /usr/bin/python3
+Build Options: 
+Python system: Linux
+The Meson build system
+Version: 0.53.2
+Source dir: /home/sean/Documents/fwupd-gui
+Build dir: /home/sean/Documents/fwupd-gui/build
+Build type: native build
+Project name: firmware-update
+Project version: 3.34.1
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.c -o /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.exe
+C compiler for the build machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-10ubuntu1) 9.3.0")
+C linker for the build machine: cc ld.bfd 2.34
+No CFLAGS in the environment, not changing global flags.
+No LDFLAGS in the environment, not changing global flags.
+No CPPFLAGS in the environment, not changing global flags.
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.c -o /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.exe -pipe -D_FILE_OFFSET_BITS=64
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/sean/Documents/fwupd-gui/build/meson-private/sanitycheckc.exe
+C compiler for the host machine: cc (gcc 9.3.0 "cc (Ubuntu 9.3.0-10ubuntu1) 9.3.0")
+C linker for the host machine: cc ld.bfd 2.34
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Host machine cpu family: x86_64
+Host machine cpu: x86_64
+Target machine cpu family: x86_64
+Target machine cpu: x86_64
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpdlxq4gvl
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpdlxq4gvl/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpdlxq4gvl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Waggregate-return 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Waggregate-return: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpp5cb2fhh
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpp5cb2fhh/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpp5cb2fhh/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Warray-bounds 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Warray-bounds: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpotm600p0
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpotm600p0/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpotm600p0/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wcast-align 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wcast-align: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpqo4ffqii
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpqo4ffqii/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpqo4ffqii/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wclobbered 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wclobbered: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpqr5qk5l5
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpqr5qk5l5/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpqr5qk5l5/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wdeclaration-after-statement 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wdeclaration-after-statement: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp9133djy9
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp9133djy9/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp9133djy9/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wempty-body 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wempty-body: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpa6bdp803
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpa6bdp803/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpa6bdp803/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wextra 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wextra: YES 
+meson.build:60: WARNING: Consider using the built-in warning_level option instead of using "-Wextra".
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp1dz9uoo_
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp1dz9uoo_/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp1dz9uoo_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat=2 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat=2: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp2lf35rrr
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp2lf35rrr/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp2lf35rrr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-security 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-security: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpt_ssb43o
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpt_ssb43o/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpt_ssb43o/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wformat-signedness 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wformat-signedness: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp7al0e4i6
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp7al0e4i6/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp7al0e4i6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wignored-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wignored-qualifiers: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp0t6gb5ae
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp0t6gb5ae/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp0t6gb5ae/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wimplicit-function-declaration 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wimplicit-function-declaration: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpn9qkc_q2
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpn9qkc_q2/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpn9qkc_q2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winit-self 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winit-self: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpupwk8vyw
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpupwk8vyw/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpupwk8vyw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Winline 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Winline: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpp1m6j8u6
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpp1m6j8u6/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpp1m6j8u6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-declarations 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-declarations: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpdeyhysnl
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpdeyhysnl/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpdeyhysnl/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-format-attribute 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-format-attribute: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpa4utfer_
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpa4utfer_/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpa4utfer_/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-include-dirs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-include-dirs: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp0o25e6li
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp0o25e6li/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp0o25e6li/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-noreturn 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-noreturn: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpyswn6fb4
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpyswn6fb4/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpyswn6fb4/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-parameter-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-parameter-type: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpyt53oico
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpyt53oico/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpyt53oico/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wmissing-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wmissing-prototypes: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpnhg406r2
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpnhg406r2/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpnhg406r2/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wnested-externs 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wnested-externs: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpx0jjmj23
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpx0jjmj23/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpx0jjmj23/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-discarded-qualifiers -Wdiscarded-qualifiers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-discarded-qualifiers -Wdiscarded-qualifiers: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp_x8nom3z
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp_x8nom3z/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp_x8nom3z/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-missing-field-initializers -Wmissing-field-initializers 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-missing-field-initializers -Wmissing-field-initializers: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp0uu5p8zx
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp0uu5p8zx/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp0uu5p8zx/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-strict-aliasing -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-strict-aliasing -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp_dmk9hvn
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp_dmk9hvn/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp_dmk9hvn/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-suggest-attribute=format -Wsuggest-attribute=format 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-suggest-attribute=format -Wsuggest-attribute=format: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpq00ynq2i
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpq00ynq2i/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpq00ynq2i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-unused-parameter -Wunused-parameter 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-unused-parameter -Wunused-parameter: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpyj67bt7g
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpyj67bt7g/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpyj67bt7g/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-cast-function-type -Wcast-function-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-cast-function-type -Wcast-function-type: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpmovj__08
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpmovj__08/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpmovj__08/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wold-style-definition 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wold-style-definition: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp5d3i_rzw
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp5d3i_rzw/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp5d3i_rzw/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wno-format-nonliteral -Wformat-nonliteral 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wno-format-nonliteral -Wformat-nonliteral: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpbix2hs92
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpbix2hs92/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpbix2hs92/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Woverride-init 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Woverride-init: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpnrlds2o6
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpnrlds2o6/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpnrlds2o6/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpacked 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpacked: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpu6pj7tsj
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpu6pj7tsj/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpu6pj7tsj/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wpointer-arith 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wpointer-arith: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpk5wd3ec3
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpk5wd3ec3/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpk5wd3ec3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wredundant-decls 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wredundant-decls: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpm_i8c876
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpm_i8c876/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpm_i8c876/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wreturn-type 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wreturn-type: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpljxx0kx3
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpljxx0kx3/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpljxx0kx3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wshadow 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wshadow: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpzfa_vlt3
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpzfa_vlt3/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpzfa_vlt3/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wsign-compare 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wsign-compare: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpt8dsabvu
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpt8dsabvu/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpt8dsabvu/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-aliasing 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-aliasing: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpt5jozm04
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpt5jozm04/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpt5jozm04/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wstrict-prototypes 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wstrict-prototypes: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpp8yko5gr
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpp8yko5gr/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpp8yko5gr/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wswitch-default 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wswitch-default: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpwc9szrok
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpwc9szrok/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpwc9szrok/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wtype-limits 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wtype-limits: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp0yfiaeua
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp0yfiaeua/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp0yfiaeua/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wundef 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wundef: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpxwv66yf8
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpxwv66yf8/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpxwv66yf8/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wuninitialized 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wuninitialized: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp4k65g9cd
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp4k65g9cd/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp4k65g9cd/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wunused-but-set-variable 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wunused-but-set-variable: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpjgbe9kvg
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpjgbe9kvg/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpjgbe9kvg/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 -Wwrite-strings 
+
+Code:
+ int i;
+
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports arguments -Wwrite-strings: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpbxoe4fvv
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpbxoe4fvv/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpbxoe4fvv/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,relro 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,-z,relro: YES 
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmp61ee1i_p
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmp61ee1i_p/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmp61ee1i_p/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 -Wl,--fatal-warnings -Wl,-z,now 
+
+Code:
+ int main(void) { return 0; }
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Compiler for C supports link arguments -Wl,-z,now: YES 
+Pkg-config binary for MachineChoice.HOST is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.HOST at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'gtk+-3.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gtk+-3.0` -> 0
+3.24.17
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gtk+-3.0` -> 0
+-pthread -I/usr/include/gtk-3.0 -I/usr/include/at-spi2-atk/2.0 -I/usr/include/at-spi-2.0 -I/usr/include/dbus-1.0 -I/usr/lib/x86_64-linux-gnu/dbus-1.0/include -I/usr/include/gtk-3.0 -I/usr/include/gio-unix-2.0 -I/usr/include/cairo -I/usr/include/pango-1.0 -I/usr/include/fribidi -I/usr/include/harfbuzz -I/usr/include/atk-1.0 -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/uuid -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gtk+-3.0 --libs` -> 0
+-lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -lharfbuzz -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpxkdm0x5j
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpxkdm0x5j/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpxkdm0x5j/output.exe -pipe -D_FILE_OFFSET_BITS=64 -O0 
+
+Code:
+ #include<stdio.h>
+        
+        int main(void) {
+            printf("%ld\n", (long)(sizeof(void *)));
+            return 0;
+        };
+Compiler stdout:
+ 
+Compiler stderr:
+ 
+Program stdout:
+
+8
+
+Program stderr:
+
+
+Running compile:
+Working directory:  /home/sean/Documents/fwupd-gui/build/meson-private/tmpgco7xb5i
+Command line:  cc /home/sean/Documents/fwupd-gui/build/meson-private/tmpgco7xb5i/testfile.c -o /home/sean/Documents/fwupd-gui/build/meson-private/tmpgco7xb5i/output.obj -pipe -c -D_FILE_OFFSET_BITS=64 -O0 --print-search-dirs 
+
+Code:
+ 
+Compiler stdout:
+ install: /usr/lib/gcc/x86_64-linux-gnu/9/
+programs: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/bin/
+libraries: =/usr/lib/gcc/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/9/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../lib/:/lib/x86_64-linux-gnu/9/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/9/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../../x86_64-linux-gnu/lib/:/usr/lib/gcc/x86_64-linux-gnu/9/../../../:/lib/:/usr/lib/
+
+Compiler stderr:
+ 
+Run-time dependency gtk+-3.0 found: YES 3.24.17
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'gio-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion gio-2.0` -> 0
+2.64.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags gio-2.0` -> 0
+-pthread -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config gio-2.0 --libs` -> 0
+-lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency gio-2.0 found: YES 2.64.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'fwupd' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion fwupd` -> 0
+1.4.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags fwupd` -> 0
+-pthread -I/usr/include/fwupd-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config fwupd --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lfwupd -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config fwupd --libs` -> 0
+-lfwupd -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency fwupd found: YES 1.4.1
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'xmlb' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion xmlb` -> 0
+0.1.15
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags xmlb` -> 0
+-pthread -I/usr/include/libxmlb-1 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xmlb --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lxmlb -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config xmlb --libs` -> 0
+-lxmlb -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency xmlb found: YES 0.1.15
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'libsoup-2.4' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion libsoup-2.4` -> 0
+2.70.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags libsoup-2.4` -> 0
+-pthread -I/usr/include/libsoup-2.4 -I/usr/include/libxml2 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libsoup-2.4 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lsoup-2.4 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config libsoup-2.4 --libs` -> 0
+-lsoup-2.4 -lgio-2.0 -lgobject-2.0 -lglib-2.0
+Run-time dependency libsoup-2.4 found: YES 2.70.0
+Pkg-config binary for MachineChoice.HOST is cached.
+Determining dependency 'systemd' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion systemd` -> 0
+245
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags systemd` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config systemd --libs` -> 0
+
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config systemd --libs` -> 0
+
+Run-time dependency systemd found: YES 245
+Configuring config.h using configuration
+Pkg-config binary for MachineChoice.BUILD is not cached.
+Pkg-config binary missing from cross or native file, or env var undefined.
+Trying a default pkg-config fallback at pkg-config
+Trying pkg-config binary pkg-config for machine MachineChoice.BUILD at ['/usr/bin/pkg-config']
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'glib-2.0' with pkg-config executable '/usr/bin/pkg-config'
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --modversion glib-2.0` -> 0
+2.64.1
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config --cflags glib-2.0` -> 0
+-I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-L/usr/lib/x86_64-linux-gnu -lglib-2.0
+PKG_CONFIG_PATH: 
+Called `/usr/bin/pkg-config glib-2.0 --libs` -> 0
+-lglib-2.0
+Program help2man found: YES (/usr/bin/help2man)
+Program env found: YES (/usr/bin/env)
+Build targets in project: 9
+
+Found ninja-1.10.0 at /usr/bin/ninja
