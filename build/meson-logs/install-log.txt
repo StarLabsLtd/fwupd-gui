@@ -1,9 +1,0 @@
-# List of files installed by Meson
-# Does not contain files installed by custom scripts.
-/usr/local/bin/firmware-update
-/usr/local/share/man/man1/firmware-update.1
-/usr/local/share/metainfo/firmware-update.metainfo.xml
-/usr/local/share/applications/firmware-update.desktop
-/usr/local/share/icons/hicolor/scalable/apps/firmware-update.svg
-/usr/local/share/icons/hicolor/scalable/apps/firmware-update-dev.svg
-/usr/local/share/icons/hicolor/symbolic/apps/firmware-update-symbolic.svg
